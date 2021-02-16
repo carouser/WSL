@@ -1,18 +1,13 @@
-/etc/wsl.conf
----
+# /etc/wsl.conf
 [automount]
 enabled = false
 mountFsTab = true
-
 [interop]
 enabled = false
 appendWindowsPath = false
----
 
-/etc/fstab
----
+# /etc/fstab
 R:      /mnt/r  drvfs   rw,noatime,uid=1000,gid=1000    0 0
----
 
 sudo apt install net-tools
 
